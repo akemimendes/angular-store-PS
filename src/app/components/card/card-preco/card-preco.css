@@ -1,0 +1,27 @@
+.card-preco_container {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    color: antiquewhite;
+}
+
+.card-preco_titulo {
+    margin-bottom: 3px;
+}
+
+.card-preco_tipo-jogo {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-preco_valor {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
